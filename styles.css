@@ -1,0 +1,66 @@
+.line {
+    display: flex;
+}
+
+.new {
+    transition: all 0.25s ease;
+
+    &:focus {
+        &::-webkit-input-placeholder {
+            transition: opacity 0.45s ease;
+            opacity: 0;
+        }
+
+        &::-moz-placeholder {
+            transition: opacity 0.45s ease;
+            opacity: 0;
+        }
+
+        &:-ms-placeholder {
+            transition: opacity 0.45s ease;
+            opacity: 0;
+        }
+    }
+}
+
+.group {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.card {
+    margin-top: 50px;
+    border-radius: 0.5rem;
+    background: #fff;
+    height: 400px;
+    width: 250px;
+    box-shadow: 0 1px 0 #cfd7df;
+}
+
+.card-body {
+    padding-top: 100px;
+}
+
+.card:hover {
+    transition: all 0.25s ease;
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.pad {
+    padding-top: 150px;
+}
+
+.sh {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.adjust {
+    margin-top: 50px;
+    padding: 0px 15px;
+}
+
+.center {
+    text-align: center;
+    align-items: center;
+}
